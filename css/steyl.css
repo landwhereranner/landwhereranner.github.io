@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (min-width: 1000px) and (max-width: 2500px) {
+    .heder{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        position: sticky;
+    }
+    .logo{
+        font-size: 35;
+        padding: 0 140px;
+        color: brown;
+    }
+    .menu{
+        right: 8px;
+        position: absolute;
+        font-size: 20px;
+        padding: 0 140px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 920px;
+        margin: 0;
+        background: url(../img/a7557aa7a9cff8dd7ca3caeccaa7c269.jpg);
+    }
+    
+    .csgo{
+        margin: 64px 140px;
+        background-color: bisque;
+    }
+    .csgo-title{
+        margin: 64px 140px 24px 0;
+        font-size: 64px;
+        justify-content: center;
+        display: flex;
+        background-color: bisque;
+    }
+    .csgo-container{
+        display: flex;
+    }
+    .csgo-text{
+        height: 470px;
+        font-size: 25px;
+        justify-content:center;
+        margin-left: 80px;
+    }
+    .CupHead{
+        margin: 120px 140px;
+    }
+    .CupHead-title{
+        margin: 0;
+        font-size: 64px;
+        justify-content: center;
+        display: block;
+        color: black;
+        text-align: center;
+    }
+    .CupHead-container{
+        display: flex;
+    }
+    .CupHead-content{
+        display: flex;
+    }
+    .CupHead-pic{
+        flex-direction: column;
+        justify-content: center;
+        width: 925px;
+        height: 552px;
+        margin: 0;
+        background: url(../img/33.png);
+    }
+    .CupHead-text{
+        width: 650px;
+        font-size: 35px;
+        margin: 40px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .Maincraft{
+        margin: 120px 140px;
+    }
+    .Maincraft-title{
+        margin: 0;
+        font-size: 64px;
+        justify-content: center;
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .Maincraft-container{
+        display: flex;
+    }
+    .Maincraft-pic{
+        width: 530px;
+        height: 700px;
+        margin: 60px 20px;
+        display: flex;
+        justify-content: center;
+        background: url(../img/minecraft.jpg);
+    }
+    .Maincraft-text{
+        width: 650px;
+        font-size: 25px;
+        margin: 40px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .MovingOut{
+        margin: 120px 140px;
+    }
+    .MovingOut-pic{
+        width: 530px;
+        height: 700px;
+        margin: 60px 20px;
+        display: flex;
+        background: url(../img/0cb5f5d45fab45b8a3e6b0e59bea8bcc.jpg);
+    }
+    .MovingOut-container{
+        display: flex;
+    }
+    .MovingOut-title{
+        font-size: 64px;
+        justify-content: center;
+        display: flex;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .MovingOut-text{
+        width: 650px;
+        font-size: 25px;
+        margin: 25px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .footer-contenet{
+        background-color: bisque;
+        padding: 8px;
+        width: 100%;
+        height: 50px;
+    }
+    .footer-text{
+        color: black;
+        text-align: center;
+        margin: 4px, auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .heder{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        position: sticky;
+    }
+    .logo{
+        font-size: 25;
+        padding: 0 140px;
+        color: brown;
+    }
+    .menu{
+        right: 8px;
+        position: absolute;
+        font-size: 20px;
+        padding: 0 140px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 700px;
+        margin: 0;
+        background: url(../img/a7557aa7a9cff8dd7ca3caeccaa7c269.jpg);
+    }
+    
+    .csgo{
+        margin: 64px 140px;
+        background-color: bisque;
+    }
+    .csgo-title{
+        margin: 64px 140px 24px 0;
+        font-size: 64px;
+        justify-content: center;
+        display: flex;
+        background-color: bisque;
+    }
+    .csgo-container{
+        display: flex;
+    }
+    .csgo-text{
+        height: 470px;
+        font-size: 16px;
+        justify-content:center;
+        margin-left: 80px;
+    }
+    .CupHead{
+        margin: 120px 140px;
+    }
+    .CupHead-title{
+        margin: 0;
+        font-size: 64px;
+        justify-content: center;
+        display: block;
+        color: black;
+        text-align: center;
+    }
+    .CupHead-pic{
+        justify-content: center;
+        width: 700px;
+        height: 552px;
+        margin: 0;
+        background: url(../img/33.png);
+    }
+    .CupHead-text{
+        width: 650px;
+        font-size: 20px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .Maincraft{
+        margin: 120px 140px;
+    }
+    .Maincraft-title{
+        margin: 0;
+        font-size: 64px;
+        justify-content: center;
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .Maincraft-container{
+        display: flex;
+    }
+    .Maincraft-pic{
+        width: 530px;
+        height: 700px;
+        margin: 60px 20px;
+        display: flex;
+        justify-content: center;
+        background: url(../img/minecraft.jpg);
+    }
+    .Maincraft-text{
+        width: 650px;
+        font-size: 25px;
+        margin: 40px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .MovingOut{
+        margin: 120px 140px;
+    }
+    .MovingOut-pic{
+        width: 530px;
+        height: 700px;
+        margin: 60px 20px;
+        display: flex;
+        background: url(../img/0cb5f5d45fab45b8a3e6b0e59bea8bcc.jpg);
+    }
+    .MovingOut-container{
+        display: flex;
+    }
+    .MovingOut-title{
+        font-size: 64px;
+        justify-content: center;
+        display: flex;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .MovingOut-text{
+        width: 650px;
+        font-size: 25px;
+        margin: 25px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .footer-contenet{
+        background-color: bisque;
+        padding: 8px;
+        width: 100%;
+        height: 50px;
+    }
+    .footer-text{
+        color: black;
+        text-align: center;
+        margin: 4px, auto;
+    }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .heder{
+        width: 100%;
+        height: 60px;
+        top: 0;
+        position: sticky;
+    }
+    .logo{
+        font-size: 25;
+        padding: 0 140px;
+        color: brown;
+    }
+    .menu{
+        right: 8px;
+        position: absolute;
+        font-size: 20px;
+        padding: 0 140px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 700px;
+        margin: 0;
+        background: url(../img/a7557aa7a9cff8dd7ca3caeccaa7c269.jpg);
+    }
+    
+    .csgo{
+        background-color: bisque;
+    }
+    .csgo-title{
+        margin: 64px 140px 24px 0;
+        font-size: 64px;
+        justify-content: center;
+        display: flex;
+        background-color: bisque;
+    }
+    .csgo-container{
+        display: flex;
+    }
+    .csgo-text{
+        height: 450px;
+        font-size: 16px;
+        justify-content:center;
+        margin-left: 80px;
+    }
+    .CupHead-title{
+        margin: 0;
+        font-size: 64px;
+        justify-content: center;
+        display: block;
+        color: black;
+        text-align: center;
+    }
+    .CupHead-pic{
+        justify-content: center;
+        width: 700px;
+        height: 552px;
+        margin: 0;
+        background: url(../img/33.png);
+    }
+    .CupHead-text{
+        width: 650px;
+        font-size: 20px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .Maincraft-title{
+        margin: 0;
+        font-size: 64px;
+        justify-content: center;
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .Maincraft-container{
+        display: flex;
+    }
+    .Maincraft-pic{
+        width: 530px;
+        height: 700px;
+        margin: 60px 20px;
+        display: flex;
+        justify-content: center;
+        background: url(../img/minecraft.jpg);
+    }
+    .Maincraft-text{
+        width: 650px;
+        font-size: 25px;
+        margin: 40px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .MovingOut-pic{
+        width: 530px;
+        height: 700px;
+        margin: 60px 20px;
+        display: flex;
+        background: url(../img/0cb5f5d45fab45b8a3e6b0e59bea8bcc.jpg);
+    }
+    .MovingOut-container{
+        display: flex;
+    }
+    .MovingOut-title{
+        font-size: 64px;
+        justify-content: center;
+        display: flex;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .MovingOut-text{
+        width: 650px;
+        font-size: 25px;
+        margin: 25px;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+    .footer-contenet{
+        background-color: bisque;
+        padding: 8px;
+        width: 100%;
+        height: 50px;
+    }
+    .footer-text{
+        color: black;
+        text-align: center;
+        margin: 4px, auto;
+    }
+}

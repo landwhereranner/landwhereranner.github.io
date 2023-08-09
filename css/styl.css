@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heder{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+    top: 0;
+    position: sticky;
+}
+.logo{
+    font-size: 35;
+    padding: 0 140px;
+    color: brown;
+}
+.menu{
+    right: 8px;
+    position: absolute;
+    font-size: 20px;
+    padding: 0 140px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 920px;
+    background: url(../img/iui.jpg);
+    margin: 0;
+}
+
+.eco{
+    margin: 64px 140px;
+    background-color: bisque;
+}
+.eco-title{
+    margin: 64px 140px 24px 0;
+    font-size: 64px;
+    justify-content: center;
+    display: flex;
+    background-color: bisque;
+}
+.eco-container{
+    display: flex;
+}
+.eco-text{
+    width: 655px;
+    height: 740px;
+    font-size: 45px;
+    justify-content:right;
+    margin-left: 80px;
+}
+.eco-pic{
+    background: url(../img/3.jpg );
+    width: 530px;
+    height: 700px;
+    margin: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+.sit{
+    margin: 64px 140px;
+    background: url(../img/1.jpg);
+
+}
+.sit-title{
+    margin: 0;
+    font-size: 64px;
+    justify-content: center;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+}
+.sit-content{
+    display: flex;
+}
+.sit-text{
+    width: 650px;
+    font-size: 45px;
+    margin: 40px;
+    text-align: justify;
+    color: aliceblue;
+}
+.pro{
+    margin: 64px 140px;
+}
+.pro-title{
+    margin: 0;
+    font-size: 64px;
+    justify-content: center;
+    display: block;
+    color: rgb(112, 0, 216);
+    text-align: center;
+}
+.pro-container{
+    display: flex;
+}
+.pro-pic{
+    background: url(../img/5.jpg );
+    width: 530px;
+    height: 700px;
+    margin: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+.pro-text{
+    width: 650px;
+    font-size: 45px;
+    margin: 40px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.deci{
+    margin: 64px 140px;
+}
+.deci-container{
+    display: flex;
+}
+.deci-title{
+    margin: 100px;
+    font-size: 64px;
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 255, 55);
+    text-align: center;
+}
+.deci-text{
+    width: 650px;
+    font-size: 30px;
+    margin: 40px;
+    display: flex;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.footer-contenet{
+    background-color: bisque;
+    padding: 8px;
+    width: 100%;
+    height: 50px;
+}
+.footer-text{
+    color: black;
+    text-align: center;
+    margin: 4px, auto;
+}
